@@ -15,6 +15,10 @@
 		666DA5792AF3CE3300B76255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666DA5772AF3CE3300B76255 /* LaunchScreen.storyboard */; };
 		666DA5842AF3CE3300B76255 /* EjemploTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666DA5832AF3CE3300B76255 /* EjemploTableViewTests.swift */; };
 		666DA58F2AF3CE3300B76255 /* EjemploTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666DA58E2AF3CE3300B76255 /* EjemploTableViewUITests.swift */; };
+		666DA5A02AF3CE4200B76255 /* Tarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666DA59F2AF3CE4200B76255 /* Tarea.swift */; };
+		666DA5A52AF3CFD700B76255 /* CrearTareaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666DA5A42AF3CFD700B76255 /* CrearTareaViewController.swift */; };
+		666DA5AA2AF3D1AB00B76255 /* CeldaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666DA5A92AF3D1AB00B76255 /* CeldaTableViewCell.swift */; };
+		666DA5AF2AF3D4F400B76255 /* ObtenerTarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666DA5AE2AF3D4F400B76255 /* ObtenerTarea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		666DA58A2AF3CE3300B76255 /* EjemploTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		666DA58E2AF3CE3300B76255 /* EjemploTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploTableViewUITests.swift; sourceTree = "<group>"; };
 		666DA5902AF3CE3300B76255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666DA59F2AF3CE4200B76255 /* Tarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea.swift; sourceTree = "<group>"; };
+		666DA5A42AF3CFD700B76255 /* CrearTareaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearTareaViewController.swift; sourceTree = "<group>"; };
+		666DA5A92AF3D1AB00B76255 /* CeldaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaTableViewCell.swift; sourceTree = "<group>"; };
+		666DA5AE2AF3D4F400B76255 /* ObtenerTarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtenerTarea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				666DA5752AF3CE3300B76255 /* Assets.xcassets */,
 				666DA5772AF3CE3300B76255 /* LaunchScreen.storyboard */,
 				666DA57A2AF3CE3300B76255 /* Info.plist */,
+				666DA59F2AF3CE4200B76255 /* Tarea.swift */,
+				666DA5A42AF3CFD700B76255 /* CrearTareaViewController.swift */,
+				666DA5A92AF3D1AB00B76255 /* CeldaTableViewCell.swift */,
+				666DA5AE2AF3D4F400B76255 /* ObtenerTarea.swift */,
 			);
 			path = EjemploTableView;
 			sourceTree = "<group>";
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				666DA5A52AF3CFD700B76255 /* CrearTareaViewController.swift in Sources */,
+				666DA5AA2AF3D1AB00B76255 /* CeldaTableViewCell.swift in Sources */,
 				666DA5712AF3CE3100B76255 /* ViewController.swift in Sources */,
+				666DA5AF2AF3D4F400B76255 /* ObtenerTarea.swift in Sources */,
 				666DA56D2AF3CE3100B76255 /* AppDelegate.swift in Sources */,
 				666DA56F2AF3CE3100B76255 /* SceneDelegate.swift in Sources */,
+				666DA5A02AF3CE4200B76255 /* Tarea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
